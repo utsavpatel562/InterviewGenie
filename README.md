@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎙️ InterviewGenie
 
-## Getting Started
+InterviewGenie is an AI-powered mock interview web application that enables users to practice technical and behavioral interviews in real-time using voice-based AI interactions. Built with a modern full-stack tech stack, the app aims to simulate real-world interview scenarios to boost user confidence and preparation.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔊 **Voice-Powered Interviews** with real-time AI interaction
+- 🧠 **AI-Generated Questions** tailored to user roles and domains
+- 🔐 **Secure Authentication** powered by Supabase
+- 📊 **Real-Time Feedback** to help users improve
+- ⚡ **Fast & Responsive UI** optimized for all devices
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js** – React Framework for Full Stack Development  
+- **React** – Building beautiful & responsive UIs  
+- **Vapi** – Voice AI API to handle real-time conversations  
+- **Supabase** – Open-source Firebase alternative for backend & auth  
+- **AI Integration** – Generate and conduct interviews using intelligent prompts  
+
+---
+
+## 📸 Screenshots
+
+*Coming soon – add UI previews of your app here!*
+
+---
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/your-username/InterviewGenie.git
+cd InterviewGenie
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 📂 Folder Structure
+```
+/components       # Reusable UI components
+/pages            # Next.js pages and routes
+/lib              # Utility functions and API integrations
+/styles           # Tailwind or global CSS
+/public           # Static assets
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# 🤖 AI-Powered Functionality
+Uses prompt engineering to simulate interviewers
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Adapts to the user's answers using intelligent follow-ups
 
-## Learn More
+Supports various roles and interview styles
 
-To learn more about Next.js, take a look at the following resources:
+# 📬 Feedback & Contributions
+We’d love to hear your thoughts! Feel free to submit issues or feature requests. Contributions are welcome via pull requests.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 📝 License
+This project is open source and available under the MIT License.
