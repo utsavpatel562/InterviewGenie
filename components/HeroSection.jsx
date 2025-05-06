@@ -6,7 +6,7 @@ function HeroSection() {
       <section className="py-28">
         <div className="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8">
           <div className="flex-none space-y-5 px-4 sm:max-w-lg md:px-0 lg:max-w-xl">
-            <h1 className="text-sm text-indigo-600 font-medium">
+            <h1 className="text-sm text-blue-500 font-medium">
               Trusted by 200+ aspiring professionals
             </h1>
             <h2 className="text-4xl text-gray-800 font-extrabold md:text-5xl">
@@ -19,7 +19,7 @@ function HeroSection() {
             <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
               <a
                 href="#"
-                className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
+                className="block py-2 px-4 text-center text-white font-medium bg-blue-500 duration-150 hover:bg-blue-500 active:bg-blue-700 rounded-lg shadow-lg hover:shadow-none"
               >
                 Learn More
               </a>
@@ -45,8 +45,8 @@ function HeroSection() {
           </div>
           <div className="flex-none mt-14 md:mt-0 md:max-w-xl">
             <img
-              src="https://images.unsplash.com/photo-1573164713619-24c711fe7878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80"
-              className=" md:rounded-tl-[108px]"
+              src="/hero_section_img.jpg"
+              className="md:rounded-tl-[108px] md:rounded-br-[108px] border-2"
               alt=""
             />
           </div>

@@ -15,12 +15,7 @@ function Header() {
       <nav className="relative items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6">
         <div className="flex justify-between">
           <a href="#">
-            <img
-              src="https://www.floatui.com/logo.svg"
-              width={120}
-              height={50}
-              alt="InterviewGenie"
-            />
+            <img src="/logo.png" width={200} height={50} alt="InterviewGenie" />
           </a>
           <button
             className="text-gray-500 outline-none md:hidden"
@@ -79,7 +74,7 @@ function Header() {
           <li className="order-2 py-5 md:py-0">
             <a
               href="#"
-              className="py-2 px-5 rounded-lg font-medium text-white text-center bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 duration-150 block md:py-3 md:inline"
+              className="py-2 px-5 rounded-lg font-medium text-white text-center bg-blue-500 hover:bg-blue-500 active:bg-blue-700 duration-150 block md:py-3 md:inline"
             >
               Get started
             </a>
