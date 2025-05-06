@@ -43,10 +43,10 @@ function HeroSection() {
               </a>
             </div>
           </div>
-          <div className="flex-none mt-14 md:mt-0 md:max-w-xl">
+          <div className="flex-none mt-14 md:mt-0 md:max-w-xl p-3 md:p-0">
             <img
               src="/hero_section_img.jpg"
-              className="md:rounded-tl-[108px] md:rounded-br-[108px] border-2"
+              className="md:rounded-tl-[108px] rounded-xl md:rounded-br-[108px] md:border-2"
               alt=""
             />
           </div>
