@@ -3,7 +3,17 @@ import { RiSpeakAiLine } from "react-icons/ri";
 import { RiBarChartBoxAiLine } from "react-icons/ri";
 import { TbReportAnalytics } from "react-icons/tb";
 import { RiSave2Line } from "react-icons/ri";
+import { TbAugmentedReality } from "react-icons/tb";
+import { RiVoiceAiLine } from "react-icons/ri";
+import { SiCodementor } from "react-icons/si";
+import { GiProgression } from "react-icons/gi";
 function WholeContent() {
+  const features = [
+    {
+      icon: <TbAugmentedReality />,
+      title: "Real-Time AI Feedback",
+    },
+  ];
   return (
     <>
       <section className="py-1">
@@ -95,6 +105,44 @@ function WholeContent() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="relative py-28">
+        <div className="relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 justify-between gap-24 lg:flex md:px-8">
+          <div className="mt-12 lg:mt-0">
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {features.map((item, idx) => (
+                <li
+                  key={idx}
+                  className="flex items-center gap-x-4 hover:bg-slate-100 p-2 rounded-md hover:shadow-xl"
+                >
+                  <div className="flex-none w-12 h-12 bg-gray-700 text-gray-50 rounded-lg flex items-center justify-center">
+                    {item.icon}
+                  </div>
+                  <div>
+                    <h4 className="text-lg text-gray-700 font-semibold">
+                      {item.title}
+                    </h4>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="max-w-xl">
+            <h3 className="text-slate-600 md:text-5xl font-semibold sm:text-4xl">
+              Everything You Need to Succeed in One App
+            </h3>
+            <p className="mt-3 text-blue-500 font-semibold">
+              From voice-based mock interviews to personalized AI feedback,
+              InterviewGenie offers powerful tools to help you practice smarter.
+            </p>
+          </div>
+        </div>
+        <div
+          className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px]"
+          style={{
+            background: "linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%)",
+          }}
+        ></div>
       </section>
     </>
   );

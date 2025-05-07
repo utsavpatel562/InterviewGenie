@@ -64,7 +64,7 @@ function Header() {
           <div className="items-center space-y-5 md:flex md:space-x-6 md:space-y-0 md:ml-12">
             {navigation.map((item, idx) => (
               <li
-                className="text-gray-500 hover:text-indigo-600 hover:bg-indigo-50 p-2 md:pr-4 md:pl-4 rounded-full"
+                className="text-gray-500 hover:text-blue-400 hover:bg-blue-50 p-2 md:pr-4 md:pl-4 rounded-full"
                 key={idx}
               >
                 <a href={item.path}>{item.title}</a>
