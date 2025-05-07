@@ -13,6 +13,18 @@ function WholeContent() {
       icon: <TbAugmentedReality />,
       title: "Real-Time AI Feedback",
     },
+    {
+      icon: <RiVoiceAiLine />,
+      title: "Voice-Powered Interviews",
+    },
+    {
+      icon: <SiCodementor />,
+      title: "Role-Specific Questions",
+    },
+    {
+      icon: <GiProgression />,
+      title: "Progress Tracking Dashboard",
+    },
   ];
   return (
     <>
@@ -109,7 +121,7 @@ function WholeContent() {
       <section className="relative py-28">
         <div className="relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 justify-between gap-24 lg:flex md:px-8">
           <div className="mt-12 lg:mt-0">
-            <ul className="grid gap-3 sm:grid-cols-2">
+            <ul className="grid gap-8 sm:grid-cols-2">
               {features.map((item, idx) => (
                 <li
                   key={idx}
