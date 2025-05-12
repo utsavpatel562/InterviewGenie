@@ -5,10 +5,10 @@ function Header() {
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-    { title: "Home", path: "#" },
-    { title: "Features", path: "#" },
+    { title: "Home", path: "/" },
+    { title: "Features", path: "/#features" },
     { title: "About Developer", path: "#" },
-    { title: "Contact Me", path: "#" },
+    { title: "Contact Me", path: "/#contact" },
   ];
   return (
     <>

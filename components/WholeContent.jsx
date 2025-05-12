@@ -48,7 +48,7 @@ function WholeContent() {
   ];
   return (
     <>
-      <section className="py-1">
+      <section className="py-1" id="features">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
             <div className="flex-1 sm:hidden lg:block">
@@ -138,7 +138,7 @@ function WholeContent() {
           </div>
         </div>
       </section>
-      <section className="relative py-28">
+      <section className="relative md:py-28 md:mb-0 mb-10">
         <div className="relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 justify-between gap-24 lg:flex md:px-8">
           <div className="mt-12 lg:mt-0">
             <ul className="grid gap-8 sm:grid-cols-2">
@@ -159,7 +159,7 @@ function WholeContent() {
               ))}
             </ul>
           </div>
-          <div className="max-w-xl">
+          <div className="max-w-xl md:p-0 p-5 md:mt-0 mt-5 md:bg-transparent bg-slate-50 rounded-2xl md:shadow-none shadow-2xl">
             <h3 className="text-slate-600 md:text-5xl font-semibold sm:text-4xl">
               Everything You Need to Succeed in One App
             </h3>
@@ -176,7 +176,7 @@ function WholeContent() {
           }}
         ></div>
       </section>
-      <section className="py-5">
+      <section className="py-5 md:p-0 p-5" id="contact">
         <div className="max-w-screen-xl mx-auto px-4 text-gray-600 gap-12 md:px-8 lg:flex bg-slate-50 p-12 rounded-2xl border-2 shadow-2xl">
           <div className="max-w-md">
             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
@@ -226,6 +226,9 @@ function WholeContent() {
           </div>
         </div>
       </section>
+      <footer className="bg-slate-950 p-3 text-slate-50 text-center md:mt-10">
+        <h2>All rights are reserved to @ Utsav Patel</h2>
+      </footer>
     </>
   );
 }
