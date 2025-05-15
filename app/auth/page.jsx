@@ -6,7 +6,12 @@ function login() {
   return (
     <>
       <div className="flex flex-col items-center justify-center h-screen">
-        <div className="flex flex-col items-center rounded-2xl border p-8">
+        <div
+          className="flex flex-col items-center rounded-2xl border p-8"
+          style={{
+            boxShadow: "0px 0px 54px 0px rgba(0,0,0,0.1)",
+          }}
+        >
           <Image
             src="/logo.png"
             alt="logo"
