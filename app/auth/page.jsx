@@ -1,8 +1,19 @@
+"use client";
 import { Button } from "@/components/ui/button";
+import { supabase } from "@/services/supabaseClient";
 import Image from "next/image";
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
 function login() {
+  /* SignIn with Google using Supabase */
+  const signInWithGoogle = async () => {
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+    });
+    if (error) {
+      console.error("Error", error.message);
+    }
+  };
   return (
     <>
       <div className="flex flex-col items-center justify-center h-screen">
@@ -37,7 +48,10 @@ function login() {
             <p className="text-gray-500 font-semibold text-center">
               Sign In with Google Authentication
             </p>
-            <Button className="flex w-full hover:bg-slate-900 items-center my-3 cursor-pointer bg-slate-800">
+            <Button
+              onClick={signInWithGoogle}
+              className="flex w-full hover:bg-slate-900 items-center my-3 cursor-pointer bg-slate-800"
+            >
               Login with Google
               <FcGoogle />
             </Button>
